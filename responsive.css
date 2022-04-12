@@ -1,0 +1,36 @@
+@media(max-width:600px){
+
+    .containerOne{
+        grid-template-columns: 1fr;
+       
+    }
+
+   .containerOne .about{
+        text-align: center;
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media(max-width:425px){
+    .navbar{
+        gap: 20px;
+    }
+
+    .moment{
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:376px){
+    .cards{
+        grid-template-columns: 1fr;
+    }
+
+}
+

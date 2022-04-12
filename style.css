@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #111;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+    
+}
+
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    color: #fff;
+    background: #1F2937;
+}
+
+.logo {
+    font-size: 34px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+ul li {
+    font-size: 18px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#buy {
+    display: block;
+    background: #ff0202;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.containerOne{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    text-align: right;
+    padding: 20px;
+}
+
+.about h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.about p,#buy{
+    align-self: start;
+}
+
+#coffeGrao {
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+.containerTwo h1{
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    margin: 30px 0;
+}
+
+.cards{
+    background-color: #fff;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+}
+
+.card-item{
+    display: grid;
+    text-align: center;
+    background: #e9e5e5;
+    border-radius: 5px;
+    height: 400px;
+}
+
+.containerTree{
+    width: 100%;
+    height: 500px;
+    background: url(img/cafeteria.jpg);
+    background-position:center;
+    filter: brightness(50%);
+  
+    
+}
+
+.moment{
+    position: relative;
+    bottom: 250px;
+    margin-left: 100px;
+    font-size: 50px;
+    color: #fff;
+
+}
+
+footer{
+    background:#fff;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
